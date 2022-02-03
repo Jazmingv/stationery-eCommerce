@@ -1,9 +1,13 @@
-import './App.css';
+//import React from 'react';
+import Navbar from './components/Navbar';
+import ItemListContainer from './components/ItemListContainer';
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Navbar />
+      <ItemListContainer />
+    </>
   );
 }
 
